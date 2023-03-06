@@ -41,5 +41,23 @@ body {
 
 .house .main::before {
   content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.house .main .roof {
+  position: absolute;
+  top: -100px;
+  height: 100px;
+  width: 100%;
+  background: #ff0;
+}
+
+.house .main .roof::before {
+  content: '';
 }
 /*# sourceMappingURL=estilo.css.map */
