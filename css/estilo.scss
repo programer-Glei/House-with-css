@@ -14,4 +14,23 @@ body{
 
 .house{
     position: relative;
+    width: 700px;
+    height: 350px;
+    background: #ccc;
+    border-bottom: 8px solid #155117;
+
+    .main{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 400px;
+        height: 200px;
+        background: #fff;
+
+        &::before{
+            content: '';
+            
+        }
+    }
 }
