@@ -54,7 +54,6 @@ body {
   top: -100px;
   height: 100px;
   width: 100%;
-  background: #ff0;
 }
 
 .house .main .roof::before {
@@ -67,5 +66,28 @@ body {
   background: #257582;
   -webkit-transform: skewX(330deg);
           transform: skewX(330deg);
+}
+
+.house .main .roof::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: #257582;
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+}
+
+.house .main .front {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 180px;
+  height: 180px;
+  background: #f1f1f1;
 }
 /*# sourceMappingURL=estilo.css.map */
