@@ -75,6 +75,16 @@ body{
             width: 180px;
             height: 180px;
             background: #f1f1f1;
+
+            &::before{
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: -64px;
+                width: 126px;
+                height: 126px;
+                background: #f00;
+            }
         }
     }
 }
