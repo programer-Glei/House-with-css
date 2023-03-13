@@ -85,6 +85,16 @@ body{
                 height: 126px;
                 background: #f1f1f1;
                 transform: translateX(-50%) rotate(45deg);
+                border-top: 4px solid #222;
+                border-left: 4px solid #222;
+            }
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 120px;
+                height: 60px;
+                background: #333;
             }
         }
     }
