@@ -113,6 +113,15 @@ body{
                 height: 80px;
                 transform: translateX(-50%);
                 background: #4d2418;
+                border-top-left-radius: 60px;
+                border-top-right-radius: 60px;
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
     }
