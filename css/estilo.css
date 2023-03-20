@@ -49,6 +49,22 @@ body {
   background: rgba(0, 0, 0, 0.1);
 }
 
+.house .main .line {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  height: 12px;
+  border-top: 4px solid #257582;
+  border-bottom: 4px solid #257582;
+}
+
+.house .main .windows_right {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  background: #333;
+}
+
 .house .main .roof {
   position: absolute;
   top: -100px;
