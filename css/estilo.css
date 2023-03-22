@@ -18,13 +18,13 @@ body {
           align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  background: #ccc;
 }
 
 .house {
   position: relative;
   width: 700px;
   height: 350px;
-  background: #ccc;
   border-bottom: 8px solid #155117;
 }
 
@@ -36,7 +36,7 @@ body {
           transform: translateX(-50%);
   width: 400px;
   height: 200px;
-  background: #fff;
+  background: #f9f9f9;
 }
 
 .house .main::before {
@@ -323,22 +323,34 @@ body {
 
 .house .main .tree {
   position: absolute;
+  top: -10px;
+  right: -120px;
   width: 120px;
   height: 120px;
   background: #94ab38;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
 }
 
 .house .main .tree::before {
   content: '';
   position: absolute;
   top: 85px;
-  left: -40px;
+  left: -20px;
   width: 10px;
   height: 100px;
   background: #3c2703;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+.house .main .tree2 {
+  top: -50px;
+  right: -70px;
+  background: #7b921f;
+  -webkit-transform: rotate(315deg) scale(1.25);
+          transform: rotate(315deg) scale(1.25);
 }
 /*# sourceMappingURL=estilo.css.map */
