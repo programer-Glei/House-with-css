@@ -320,4 +320,13 @@ body {
   border-top: 5px solid #333;
   border-bottom: 5px solid #333;
 }
+
+.house .main .tree {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #94ab38;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
 /*# sourceMappingURL=estilo.css.map */
