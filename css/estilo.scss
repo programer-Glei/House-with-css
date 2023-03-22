@@ -298,6 +298,17 @@ body{
             background: #94ab38;
             border-top-left-radius: 100px;
             border-bottom-right-radius: 100px;
+
+            &::before{
+                content: '';
+                position: absolute;
+                top: 85px;
+                left: -40px;
+                width: 10px;
+                height: 100px;
+                background: #3c2703;
+                transform: rotate(45deg);
+            }
         }
     }
 }
